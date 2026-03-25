@@ -6,7 +6,7 @@ const Footer = () => {
       {/* Big logo section */}
       <div className="container mx-auto px-6 pt-20 pb-10">
         <div className="flex justify-end mb-16">
-          <h2 className="font-display text-6xl md:text-8xl lg:text-9xl text-gold/30 italic tracking-tight">
+          <h2 className="text-8xl md:text-[10rem] lg:text-[14rem] text-gold/30 tracking-tight" style={{ fontFamily: "'Corinthia', cursive" }}>
             Coco
           </h2>
         </div>
