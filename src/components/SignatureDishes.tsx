@@ -7,9 +7,9 @@ import dish4 from "@/assets/dish-4.jpg";
 
 const dishes = [
   { name: "Gratin Dauphinois", image: dish1 },
-  { name: "Saucisse au Couteau", image: dish2 },
-  { name: "Plat Mijoté du Jour", image: dish3 },
-  { name: "Tarte aux Fruits Maison", image: dish4 },
+  { name: "Saucisse au Couteau, Purée Maison", image: dish2 },
+  { name: "Burger Gourmand Maison", image: dish3 },
+  { name: "Moelleux au Chocolat", image: dish4 },
 ];
 
 const SignatureDishes = () => {
