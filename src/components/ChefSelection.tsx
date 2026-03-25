@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Utensils } from "lucide-react";
 
 const menuCategories = [
@@ -74,9 +75,9 @@ const ChefSelection = () => {
           ))}
         </div>
 
-        <a href="#contact" className="btn-outline-gold self-start">
+        <Link to="/carte" className="btn-outline-gold self-start">
           Voir la Carte Complète
-        </a>
+        </Link>
       </div>
 
       {/* Right - Cream with menu items */}
