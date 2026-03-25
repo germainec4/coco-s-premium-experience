@@ -74,7 +74,7 @@ const ChefSelection = () => {
           ))}
         </div>
 
-        <a href="#contact" className="btn-outline-gold self-start">
+        <a href="/carte" className="btn-outline-gold self-start">
           Voir la Carte Complète
         </a>
       </div>
