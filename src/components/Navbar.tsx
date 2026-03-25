@@ -13,7 +13,7 @@ const Navbar = () => {
   const navLinks = [
     { label: "Accueil", href: "#hero" },
     { label: "Menu", href: "#menu" },
-    { label: "Chef", href: "#chef" },
+    { label: "Notre Histoire", href: "#chef" },
     { label: "Avis", href: "#reviews" },
     { label: "Contact", href: "#contact" },
   ];

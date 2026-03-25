@@ -4,18 +4,18 @@ import philosophy3 from "@/assets/philosophy-3.jpg";
 
 const pillars = [
   {
-    title: "L'Héritage",
-    description: "Chaque plat est le reflet d'un savoir-faire artisanal transmis de génération en génération.",
+    title: "L'Héritage Ch'ti",
+    description: "Les recettes de Grand-Mère Coco, transmises avec amour. Plats mijotés, gratins généreux, tartes aux fruits… Madeleine de Proust pour Mathieu.",
     image: philosophy1,
   },
   {
-    title: "L'Excellence Sensorielle",
-    description: "Une palette infinie d'épices et de saveurs, soigneusement dosées pour chaque création.",
+    title: "Tout est Maison",
+    description: "Du petit-déjeuner au dessert, chaque plat est préparé sur place avec des produits frais. Pas de raccourci, que du fait maison.",
     image: philosophy2,
   },
   {
-    title: "Le Partage",
-    description: "Derrière chaque assiette, nous croyons en la puissance de la table et des moments partagés.",
+    title: "La Convivialité",
+    description: "Un lieu de vie, d'échange, de souvenirs. L'esprit du Nord se retrouve dans l'accueil chaleureux et les plats copieux à partager.",
     image: philosophy3,
   },
 ];
@@ -26,11 +26,11 @@ const PhilosophySection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl text-foreground italic mb-4">
-            Derrière Chaque Assiette.
+            L'Esprit Coco.
           </h2>
           <p className="text-muted-foreground font-body text-base max-w-lg mx-auto leading-relaxed">
-            Notre philosophie est simple : la vraie qualité naît d'un dévouement aux traditions 
-            et de la puissance des moments partagés.
+            Quand les traditions d'enfance ont tellement de sens et de valeur, 
+            qu'elles se concrétisent en un restaurant où tout le monde se retrouve.
           </p>
         </div>
 

@@ -11,15 +11,15 @@ const ChefQuote = () => {
             <div className="relative">
               <span className="font-display text-8xl text-accent/20 absolute -top-10 -left-4">"</span>
               <blockquote className="font-serif text-xl md:text-2xl text-foreground italic leading-relaxed pl-8">
-                Je suis convaincu que la vraie émotion en cuisine réside dans la simplicité 
-                et la qualité des ingrédients. Chaque plat est un voyage, chaque saveur une 
-                histoire qui mérite d'être racontée. Mon objectif est de créer une expérience 
-                inoubliable, pas seulement un repas.
+                Coco, c'est le surnom de ma grand-mère Ch'ti. Ses recettes généreuses, 
+                ses plats mijotés, cette convivialité du Nord… Tout ça m'a suivi jusqu'ici, 
+                à Chamonix. Quand les traditions d'enfance ont tellement de sens, 
+                elles finissent par devenir un lieu où tout le monde se retrouve.
               </blockquote>
             </div>
             <div className="mt-8 pl-8">
-              <p className="font-display text-lg text-foreground font-semibold">Antoine Nguyen</p>
-              <p className="text-muted-foreground font-body text-sm">Chef Exécutif</p>
+              <p className="font-display text-lg text-foreground font-semibold">Mathieu</p>
+              <p className="text-muted-foreground font-body text-sm">Fondateur & Patron</p>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ const ChefQuote = () => {
             <div className="overflow-hidden rounded-sm">
               <img
                 src={chefImg}
-                alt="Chef Antoine Nguyen"
+                alt="Mathieu, patron de Coco"
                 loading="lazy"
                 width={640}
                 height={800}
@@ -38,7 +38,7 @@ const ChefQuote = () => {
             <div className="overflow-hidden rounded-sm mt-8">
               <img
                 src={restaurantImg}
-                alt="Restaurant Coco extérieur"
+                alt="Restaurant Coco à Chamonix"
                 loading="lazy"
                 width={800}
                 height={512}

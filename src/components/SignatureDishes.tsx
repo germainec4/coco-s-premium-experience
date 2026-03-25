@@ -6,10 +6,10 @@ import dish3 from "@/assets/dish-3.jpg";
 import dish4 from "@/assets/dish-4.jpg";
 
 const dishes = [
-  { name: "Tataki de Thon", image: dish1 },
-  { name: "Salade César", image: dish2 },
-  { name: "Bœuf Tataki", image: dish3 },
-  { name: "Okonomiyaki", image: dish4 },
+  { name: "Gratin Dauphinois", image: dish1 },
+  { name: "Saucisse au Couteau", image: dish2 },
+  { name: "Plat Mijoté du Jour", image: dish3 },
+  { name: "Tarte aux Fruits Maison", image: dish4 },
 ];
 
 const SignatureDishes = () => {
@@ -28,9 +28,9 @@ const SignatureDishes = () => {
         {/* Header */}
         <div className="flex items-end justify-between mb-12">
           <div>
-            <p className="text-accent font-body text-sm tracking-[0.2em] uppercase mb-2">Découvrir</p>
+            <p className="text-accent font-body text-sm tracking-[0.2em] uppercase mb-2">Tout est maison</p>
             <h2 className="font-display text-4xl md:text-5xl text-foreground font-bold tracking-tight">
-              Plats<br />Signatures.
+              Les Classiques<br />de Coco.
             </h2>
           </div>
           <div className="flex gap-3">

@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Fine dining experience at Coco"
+          alt="Restaurant Coco à Chamonix"
           className="w-full h-full object-cover"
           width={1920}
           height={1080}
@@ -21,16 +21,16 @@ const HeroSection = () => {
       <div className="relative container mx-auto px-6 flex items-end justify-between h-full pb-24">
         <div className="max-w-2xl animate-fade-up">
           <p className="text-gold font-body text-sm tracking-[0.3em] uppercase mb-4">
-            Bienvenue chez Coco
+            Chamonix — Cuisine Maison
           </p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-cream leading-[0.95] mb-8 italic">
-            Le Vrai Goût
+            Les Recettes
             <br />
-            <span className="not-italic">de la Saison.</span>
+            <span className="not-italic">de Grand-Mère.</span>
           </h1>
           <p className="text-cream/70 font-body text-base md:text-lg max-w-md mb-8 leading-relaxed">
-            Découvrez une cuisine d'exception où chaque plat raconte une histoire, 
-            avec des ingrédients frais et de saison soigneusement sélectionnés.
+            Chez Coco, tout est maison. Des plats copieux, des recettes d'antan 
+            et la convivialité du Nord — au cœur des Alpes.
           </p>
           <a href="#menu" className="btn-primary inline-block">
             Découvrir le Menu
