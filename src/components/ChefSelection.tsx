@@ -75,9 +75,9 @@ const ChefSelection = () => {
           ))}
         </div>
 
-        <a href="/carte" className="btn-outline-gold self-start">
+        <Link to="/carte" className="btn-outline-gold self-start">
           Voir la Carte Complète
-        </a>
+        </Link>
       </div>
 
       {/* Right - Cream with menu items */}
