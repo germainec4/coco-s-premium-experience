@@ -16,8 +16,8 @@ const Footer = () => {
           <div>
             <img src="/images/logo.svg" alt="Coco" className="h-8 mb-4" />
             <p className="text-gold/50 font-body text-sm leading-relaxed">
-              Une expérience culinaire d'exception au cœur de la ville. 
-              Réservez votre table et laissez-vous transporter.
+              Les recettes de Grand-Mère Coco, du Nord jusqu'à Chamonix. 
+              Cuisine maison, convivialité et plats généreux.
             </p>
           </div>
 
@@ -27,9 +27,10 @@ const Footer = () => {
               <Clock className="w-4 h-4" /> Horaires
             </h4>
             <div className="space-y-2 text-gold/50 font-body text-sm">
-              <p>Lun - Ven: 12h00 - 14h30</p>
-              <p>Lun - Sam: 19h00 - 22h30</p>
-              <p>Dim: Fermé</p>
+              <p>Ouvert de 8h à 23h</p>
+              <p>Petit-déjeuner : 8h - 11h</p>
+              <p>Service non-stop : 11h - 23h</p>
+              <p className="text-gold/70 font-medium">Dim : Brunch jusqu'à 15h !</p>
             </div>
           </div>
 
@@ -39,8 +40,8 @@ const Footer = () => {
               <Phone className="w-4 h-4" /> Contact
             </h4>
             <div className="space-y-2 text-gold/50 font-body text-sm">
-              <p>+33 1 42 77 88 99</p>
-              <p>info@coco-restaurant.fr</p>
+              <p>+33 4 50 XX XX XX</p>
+              <p>info@coco-chamonix.fr</p>
             </div>
           </div>
 
@@ -50,8 +51,8 @@ const Footer = () => {
               <MapPin className="w-4 h-4" /> Adresse
             </h4>
             <div className="space-y-2 text-gold/50 font-body text-sm">
-              <p>42 Rue du Faubourg Saint-Honoré</p>
-              <p>75008 Paris, France</p>
+              <p>Chamonix-Mont-Blanc</p>
+              <p>74400, France</p>
             </div>
             <div className="flex gap-4 mt-6">
               <a href="#" className="text-gold/40 hover:text-gold transition-colors" aria-label="Instagram">
@@ -66,7 +67,7 @@ const Footer = () => {
 
         <div className="border-t border-gold/10 mt-10 pt-6 text-center">
           <p className="text-gold/30 font-body text-xs tracking-wider">
-            © 2026 Coco Restaurant. Tous droits réservés.
+            © 2026 Coco — Chamonix-Mont-Blanc. Tous droits réservés.
           </p>
         </div>
       </div>

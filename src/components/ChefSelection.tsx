@@ -3,29 +3,39 @@ import { Utensils } from "lucide-react";
 
 const menuCategories = [
   {
-    name: "PLATS PRINCIPAUX",
+    name: "PLATS DU JOUR",
     items: [
-      { name: "Canard Laqué, Mangue Rôtie, Purée de Patate Douce", price: "€32" },
-      { name: "Bar Grillé, Beurre Blanc au Citron & Asperges Vertes", price: "€36" },
-      { name: "Risotto aux Cèpes & Truffe Noire", price: "€34" },
-      { name: "Filet de Bœuf, Sauce au Poivre & Gratin Dauphinois", price: "€42" },
-      { name: "Homard Rôti, Bisque Crémeuse & Tagliatelles Fraîches", price: "€48" },
+      { name: "Plat Mijoté du Jour — Recette de Grand-Mère", price: "€16" },
+      { name: "Gratin Dauphinois Maison", price: "€14" },
+      { name: "Saucisse au Couteau, Purée Maison", price: "€17" },
+      { name: "Blanquette de Veau à l'Ancienne", price: "€18" },
+      { name: "Pot-au-Feu Traditionnel", price: "€16" },
     ],
   },
   {
-    name: "ENTRÉES",
+    name: "PETIT-DÉJEUNER",
     items: [
-      { name: "Carpaccio de Saint-Jacques, Agrumes & Huile de Noisette", price: "€18" },
-      { name: "Velouté de Châtaignes, Crème de Truffe", price: "€16" },
-      { name: "Tartare de Saumon, Avocat & Sésame Grillé", price: "€19" },
+      { name: "P'tit Déj Français — Tartines, Confiture Maison, Viennoiseries", price: "€12" },
+      { name: "English Breakfast — Œufs, Bacon, Toast, Beans", price: "€15" },
+      { name: "Granola Maison, Yaourt & Fruits Frais", price: "€10" },
+    ],
+  },
+  {
+    name: "BRUNCH DU DIMANCHE",
+    items: [
+      { name: "Formule Brunch Complète — Sucré & Salé", price: "€28" },
+      { name: "Œufs Bénédictine, Saumon Fumé", price: "€18" },
+      { name: "Pancakes Maison, Sirop d'Érable & Fruits", price: "€14" },
+      { name: "Croque-Madame Gourmand", price: "€15" },
     ],
   },
   {
     name: "DESSERTS",
     items: [
-      { name: "Soufflé au Chocolat Grand Cru, Crème Anglaise", price: "€14" },
-      { name: "Tarte Tatin, Glace Vanille de Madagascar", price: "€13" },
-      { name: "Panna Cotta Passion, Coulis de Framboise", price: "€12" },
+      { name: "Tarte aux Fruits de Saison Maison", price: "€9" },
+      { name: "Crème Brûlée à la Vanille", price: "€8" },
+      { name: "Moelleux au Chocolat, Crème Anglaise", price: "€10" },
+      { name: "Tarte au Sucre Ch'ti", price: "€8" },
     ],
   },
 ];
@@ -38,13 +48,13 @@ const ChefSelection = () => {
       {/* Left - Dark green */}
       <div className="bg-forest p-10 md:p-16 lg:p-20 flex flex-col justify-center">
         <h2 className="font-display text-4xl md:text-5xl text-cream italic mb-4">
-          Sélection
+          La Carte
           <br />
-          du Chef.
+          de Coco.
         </h2>
         <p className="text-gold/70 font-body text-base leading-relaxed mb-8 max-w-sm">
-          Une sélection raffinée de créations saisonnières, où les techniques traditionnelles 
-          rencontrent les plus belles récoltes locales.
+          Des recettes de grand-mère, généreuses et 100% maison. 
+          Petit-déjeuner tous les jours, et brunch le dimanche jusqu'à 15h !
         </p>
 
         {/* Category tabs */}

@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import SignatureDishes from "@/components/SignatureDishes";
 import ChefSelection from "@/components/ChefSelection";
 import PhilosophySection from "@/components/PhilosophySection";
+import AperoMarche from "@/components/AperoMarche";
 import ChefQuote from "@/components/ChefQuote";
 import ReviewsSection from "@/components/ReviewsSection";
 import Footer from "@/components/Footer";
@@ -15,6 +16,7 @@ const Index = () => {
       <SignatureDishes />
       <ChefSelection />
       <PhilosophySection />
+      <AperoMarche />
       <ChefQuote />
       <ReviewsSection />
       <Footer />
