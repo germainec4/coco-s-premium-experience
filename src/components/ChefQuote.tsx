@@ -19,7 +19,7 @@ const ChefQuote = () => {
             </div>
             <div className="mt-8 pl-8">
               <p className="font-display text-lg text-foreground font-semibold">Mathieu</p>
-              <p className="text-muted-foreground font-body text-sm">Fondateur & Patron</p>
+              <p className="text-muted-foreground font-body text-sm">Gérant de Coco Chamonix</p>
             </div>
           </div>
 
