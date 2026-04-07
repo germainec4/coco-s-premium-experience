@@ -1,4 +1,4 @@
-import chefImg from "@/assets/chef.jpg";
+import chefImg from "@/assets/chef-mathieu.jpg";
 import restaurantImg from "@/assets/restaurant-exterior.jpg";
 
 const ChefQuote = () => {
