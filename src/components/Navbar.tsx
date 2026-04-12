@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         <a href="#hero">
-          <img src="/images/logo.svg" alt="Coco" className="h-10 w-auto" />
+          <img src="/images/logo-navbar.svg" alt="Coco" className="h-10 w-auto" />
         </a>
 
         {/* Desktop nav */}

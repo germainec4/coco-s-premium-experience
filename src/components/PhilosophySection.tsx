@@ -1,6 +1,6 @@
 import philosophy1 from "@/assets/philosophy-1.jpg";
 import philosophy2 from "@/assets/philosophy-2.jpg";
-import philosophy3 from "@/assets/philosophy-3.jpg";
+import convivialiteImg from "@/assets/philosophy-convivialite.png";
 
 const pillars = [
   {
@@ -16,7 +16,7 @@ const pillars = [
   {
     title: "La Convivialité",
     description: "Un lieu de vie, d'échange, de souvenirs. L'esprit du Nord se retrouve dans l'accueil chaleureux et les plats copieux à partager.",
-    image: philosophy3,
+    image: convivialiteImg,
   },
 ];
 

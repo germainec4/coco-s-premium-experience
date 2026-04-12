@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
   :root {
     --background: 40 30% 96%;
     --foreground: 150 30% 12%;
@@ -68,6 +73,12 @@
 
   body {
     @apply bg-background text-foreground font-body;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {

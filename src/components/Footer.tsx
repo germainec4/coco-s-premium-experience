@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10 border-t border-gold/10 pt-10">
           {/* About */}
           <div>
-            <img src="/images/logo.svg" alt="Coco" className="h-8 mb-4" />
+            <img src="/images/logo-navbar.svg" alt="Coco" className="h-8 mb-4" />
             <p className="text-gold/50 font-body text-sm leading-relaxed">
               Les recettes de Grand-Mère Coco, du Nord jusqu'à Chamonix. 
               Cuisine maison, convivialité et plats généreux.
@@ -40,7 +40,7 @@ const Footer = () => {
               <Phone className="w-4 h-4" /> Contact
             </h4>
             <div className="space-y-2 text-gold/50 font-body text-sm">
-              <p>+33 4 50 XX XX XX</p>
+              <p>06 85 03 61 22</p>
               <p>info@coco-chamonix.fr</p>
             </div>
           </div>
@@ -51,8 +51,8 @@ const Footer = () => {
               <MapPin className="w-4 h-4" /> Adresse
             </h4>
             <div className="space-y-2 text-gold/50 font-body text-sm">
-              <p>Chamonix-Mont-Blanc</p>
-              <p>74400, France</p>
+              <p>73 Av. Ravanel le Rouge</p>
+              <p>74400 Chamonix-Mont-Blanc</p>
             </div>
             <div className="flex gap-4 mt-6">
               <a href="#" className="text-gold/40 hover:text-gold transition-colors" aria-label="Instagram">
@@ -69,6 +69,14 @@ const Footer = () => {
           <p className="text-gold/30 font-body text-xs tracking-wider">
             © 2026 Coco — Chamonix-Mont-Blanc. Tous droits réservés.
           </p>
+          <a
+            href="https://www.clementgermaine.fr"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 inline-block text-gold/40 font-body text-xs tracking-wider transition-colors hover:text-gold"
+          >
+            Créé par Clément Germaine
+          </a>
         </div>
       </div>
     </footer>

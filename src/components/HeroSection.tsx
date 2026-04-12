@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import heroVideo from "@/assets/hero-video-coco.mp4";
 import { Star } from "lucide-react";
 
 const HeroSection = () => {
@@ -6,13 +7,18 @@ const HeroSection = () => {
     <section id="hero" className="relative h-screen min-h-[700px] flex items-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <img
-          src={heroBg}
-          alt="Restaurant Coco à Chamonix"
+        <video
           className="w-full h-full object-cover"
-          width={1920}
-          height={1080}
-        />
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster={heroBg}
+          aria-label="Ambiance gourmande chez Coco à Chamonix"
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-forest-dark/80 via-forest-dark/50 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/60 via-transparent to-forest-dark/30" />
       </div>
@@ -20,17 +26,14 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative container mx-auto px-6 flex items-end justify-between h-full pb-24">
         <div className="max-w-2xl animate-fade-up">
-          <p className="text-gold font-body text-sm tracking-[0.3em] uppercase mb-4">
-            Chamonix — Cuisine Maison
-          </p>
+          <p className="text-gold font-body text-sm tracking-[0.3em] uppercase mb-4">Chamonix — Cuisine Maison</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-cream leading-[0.95] mb-8 italic">
             Les Recettes
             <br />
             <span className="not-italic">de Grand-Mère.</span>
           </h1>
           <p className="text-cream/70 font-body text-base md:text-lg max-w-md mb-8 leading-relaxed">
-            Chez Coco, tout est maison. Des plats copieux, des recettes d'antan 
-            et la convivialité du Nord — au cœur des Alpes.
+            Chez Coco, tout est maison. Des plats copieux, des recettes d'antan et la convivialité du Nord — au cœur des Alpes.
           </p>
           <a href="#menu" className="btn-primary inline-block">
             Découvrir le Menu

@@ -9,6 +9,7 @@ const menuSections = [
     items: [
       { name: "Plat Mijoté du Jour — Recette de Grand-Mère", price: "€16" },
       { name: "Gratin Dauphinois Maison", price: "€14" },
+      { name: "Ribs de Porc", price: "€19" },
       { name: "Saucisse au Couteau, Purée Maison", price: "€17" },
       { name: "Blanquette de Veau à l'Ancienne", price: "€18" },
       { name: "Pot-au-Feu Traditionnel", price: "€16" },

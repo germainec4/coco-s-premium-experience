@@ -1,12 +1,16 @@
 import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import dish1 from "@/assets/dish-1.jpg";
+import ribsDish from "@/assets/dish-ribs.png";
 import dish2 from "@/assets/dish-2.jpg";
 import dish3 from "@/assets/dish-3.jpg";
 import dish4 from "@/assets/dish-4.jpg";
+import chickenMaroillesDish from "@/assets/dish-poulet-maroilles.png";
+import gratinCocoDish from "@/assets/dish-gratin-coco.png";
 
 const dishes = [
-  { name: "Gratin Dauphinois", image: dish1 },
+  { name: "Travers de porc caramélisés", image: ribsDish, imagePosition: "center 58%" },
+  { name: "Gratin Dauphinois", image: gratinCocoDish, imagePosition: "center 56%" },
+  { name: "Poulet au Maroilles", image: chickenMaroillesDish, imagePosition: "center 60%" },
   { name: "Saucisse au Couteau, Purée Maison", image: dish2 },
   { name: "Burger Gourmand Maison", image: dish3 },
   { name: "Moelleux au Chocolat", image: dish4 },
@@ -30,7 +34,9 @@ const SignatureDishes = () => {
           <div>
             <p className="text-accent font-body text-sm tracking-[0.2em] uppercase mb-2">Tout est maison</p>
             <h2 className="font-display text-4xl md:text-5xl text-foreground font-bold tracking-tight">
-              Les Classiques<br />de Coco.
+              Les Classiques
+              <br />
+              de Coco.
             </h2>
           </div>
           <div className="flex gap-3">
@@ -71,6 +77,7 @@ const SignatureDishes = () => {
                   loading="lazy"
                   width={640}
                   height={640}
+                  style={{ objectPosition: dish.imagePosition ?? "center" }}
                   className={`w-full h-full object-cover transition-transform duration-700 ${
                     hoveredIndex === i ? "scale-110" : "scale-100"
                   }`}
